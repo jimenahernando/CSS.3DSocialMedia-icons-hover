@@ -43,6 +43,7 @@
     transition: 0.5s;
     opacity: 0;
 }
+
 .sci li:hover::before{
     opacity: 0.1;
     transform: translate(-50%, calc(-50% + 150px));
@@ -66,6 +67,10 @@
     perspective: 500px;
     box-shadow: 0 25px 35px rgba(0,0,0, 0.1);
     transition: background 0.25s ease;
+}
+
+.js-tilt-glare{
+    border-radius: 10px;
 }
 
 .sci li a:hover.facebook{
